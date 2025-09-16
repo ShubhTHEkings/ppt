@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kisan AI Assistant - SIH25076 Project Presentation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/presentation.css">
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Slide 1: Title Slide -->
+        <section id="slide1" class="slide title-slide">
+            <div class="slide-content">
+                <h1 class="slide-title">FarmerMitra</h1>
+                <div class="logo-container">
+                    <img src="assets/images/logo.png" alt="FarmerMitra Logo" class="logo-image" loading="eager" fetchpriority="high">
+                </div>
+                <h2 class="slide-subtitle">AI-Based Farmer Query Support and Advisory System</h2>
+                <p class="slide-text">SIH ID: 25076 | Department of Agriculture, Government of Kerala</p>
+                <p class="slide-text">Category: Software | Theme: Agriculture, FoodTech & Rural Development</p>
+            </div>
+            <div class="slide-number">1</div>
+        </section>
+
+        <!-- Slide 2: Problem Statement -->
+        <section id="slide2" class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">The Problem</h2>
+                <div class="slide-columns">
+                    <div class="slide-column">
+                        <div class="slide-card">
+                            <div class="slide-card-title">Current Challenges</div>
+                            <ul class="slide-list">
+                                <li>Farmers face critical questions about pests, weather, inputs, subsidies, and market trends</li>
+                                <li>Expert advice is rarely accessible when needed most</li>
+                                <li>Agricultural officers and helplines are overburdened</li>
+                                <li>Language barriers limit access to information</li>
+                                <li>Regional diversity requires contextualized advice</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slide-column">
+                        <div class="slide-card">
+                            <div class="slide-card-title">Impact on Farmers</div>
+                            <ul class="slide-list">
+                                <li>Delayed decision making leads to crop losses</li>
+                                <li>Missed opportunities for scheme benefits and subsidies</li>
+                                <li>Inefficient resource utilization</li>
+                                <li>Knowledge gaps persist across generations</li>
+                                <li>Increased vulnerability to market fluctuations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="slide-text">Existing systems don't scale to support individual needs across diverse regions, languages, and literacy levels.</p>
+            </div>
+            <div class="slide-number">2</div>
+        </section>
+
+        <!-- Slide 3: Our Solution -->
+        <section id="slide3" class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">Our Solution: FarmerMitra</h2>
+                <div class="slide-image-full">
+                    <img src="assets/images/farmer-understand-stack.png" alt="FarmerMitra: Bridging the Information Gap" class="full-width-image" loading="lazy">
+                </div>
+                
+                <div class="slide-columns">
+                    <div class="slide-column">
+                        <div class="slide-card">
+                            <div class="slide-card-title">Core Value Proposition</div>
+                            <p class="slide-text">We've created a <span class="slide-highlight">"Digital Krishi Officer"</span> that's always available, always learning, and always farmer-first.</p>
+                            <ul class="slide-list">
+                                <li>Accessible 24/7 through web and mobile interfaces</li>
+                                <li>Supports multiple Indian languages including Malayalam</li>
+                                <li>Provides personalized recommendations based on farmer profiles</li>
+                                <li>Connects farmers directly to relevant government schemes and resources</li>
+                                <li>Creates a continuous learning loop by incorporating farmer feedback</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slide-column">
+                        <div class="slide-image-medium">
+                            <img src="assets/images/user-understanding-2.png" alt="FarmerMitra User Interaction" class="medium-width-image" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide-text">Our solution bridges the communication gap between farmers and extension systems while supporting Krishibhavans and Agri Departments by automating first-level support.</div>
+            </div>
+            <div class="slide-number">3</div>
+        </section>
+
+        <!-- Slide 4: Technical Architecture -->
+        <section id="slide4" class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">Technical Architecture</h2>
+                
+                <div class="slide-image-full">
+                    <img src="assets/images/overall-architecture.png" alt="FarmerMitra Overall Architecture" class="full-width-image" loading="lazy">
+                </div>
+                
+                <div class="architecture-diagram">
+                    <div class="slide-columns">
+                        <div class="slide-column">
+                            <div class="component-box">Frontend</div>
+                            <ul class="slide-list">
+                                <li>HTML5, CSS3, JavaScript</li>
+                                <li>Bootstrap 5 for responsive design</li>
+                                <li>Multi-language support</li>
+                                <li>Voice & text input interfaces</li>
+                            </ul>
+                        </div>
+                        <div class="slide-column">
+                            <div class="component-box">Backend</div>
+                            <ul class="slide-list">
+                                <li>PHP server-side scripting</li>
+                                <li>RESTful API architecture</li>
+                                <li>MySQL database</li>
+                                <li>Firebase integration</li>
+                            </ul>
+                        </div>
+                        <div class="slide-column">
+                            <div class="component-box">AI & ML</div>
+                            <ul class="slide-list">
+                                <li>OpenRouter API integration</li>
+                                <li>DeepSeek large language models</li>
+                                <li>Contextual response generation</li>
+                                <li>Continuous learning system</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="arrow-connector">↓</div>
+                    
+                    <div class="slide-columns">
+                        <div class="slide-column">
+                            <div class="component-box">Cloud Services</div>
+                            <ul class="slide-list">
+                                <li>Firebase Authentication</li>
+                                <li>Secure API communication</li>
+                                <li>Scalable infrastructure</li>
+                            </ul>
+                        </div>
+                        <div class="slide-column">
+                            <div class="component-box">Knowledge Base</div>
+                            <ul class="slide-list">
+                                <li>Agricultural schemes database</li>
+                                <li>Regional crop calendars</li>
+                                <li>Pest and disease information</li>
+                                <li>Weather integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="slide-image-half">
+                        <img src="assets/images/tech-stack.png" alt="FarmerMitra Technology Stack" class="half-width-image" loading="lazy">
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">4</div>
+        </section>
+
+        <!-- Slide 5: Key Features -->
+        <section id="slide5" class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">Key Features</h2>
+                
+                <div class="slide-image-full">
+                    <img src="assets/images/feature-stack.png" alt="FarmerMitra Feature Stack" class="full-width-image" loading="lazy">
+                </div>
+                
+                <div class="slide-columns">
+                    <div class="slide-column">
+                        <div class="slide-card">
+                            <div class="slide-card-title"><i class="bi bi-chat-dots"></i> Multilingual Query Support</div>
+                            <p>Natural language processing for queries in English, Hindi, Malayalam, Marathi, Punjabi, and Tamil. Handles both voice and text inputs.</p>
+                        </div>
+                        
+                        <div class="slide-card">
+                            <div class="slide-card-title"><i class="bi bi-building"></i> Government Scheme Finder</div>
+                            <p>Identifies eligible government schemes based on farmer profile including location, land size, crop type, and other parameters.</p>
+                        </div>
+                        
+                        <div class="slide-card">
+                            <div class="slide-card-title"><i class="bi bi-calendar-check"></i> Agricultural Planning</div>
+                            <p>AI-generated crop planning recommendations optimized for the farmer's specific conditions, soil type, and irrigation sources.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="slide-column">
+                        <div class="slide-card">
+                            <div class="slide-card-title"><i class="bi bi-cash-coin"></i> Agricultural Loan Assistance</div>
+                            <p>Personalized loan recommendations with eligibility criteria, interest rates, and application procedures.</p>
+                        </div>
+                        
+                        <div class="slide-card">
+                            <div class="slide-card-title"><i class="bi bi-person"></i> Personalized Farmer Profiles</div>
+                            <p>Custom farmer profiles track location, land details, crop preferences, and previous queries for contextual recommendations.</p>
+                        </div>
+                        
+                        <div class="slide-card">
+                            <div class="slide-card-title"><i class="bi bi-translate"></i> Language Accessibility</div>
+                            <p>Complete interface translation and response generation in the farmer's preferred language.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">5</div>
+        </section>
+
+        <!-- Slide 6: Implementation & Impact -->
+        <section id="slide6" class="slide">
+            <div class="slide-content">
+                <h2 class="slide-title">Implementation & Impact</h2>
+                
+                <div class="slide-columns">
+                    <div class="slide-column">
+                        <h3 class="slide-subtitle">Implementation Strategy</h3>
+                        <ul class="slide-list">
+                            <li>Phased rollout starting with major agricultural regions in Kerala</li>
+                            <li>Integration with existing government agricultural portals and apps</li>
+                            <li>Training programs for farmers through local Krishibhavans</li>
+                            <li>Continuous feedback loop with agricultural experts to validate responses</li>
+                            <li>Regular model updates based on seasonal agricultural cycles</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="slide-column">
+                        <h3 class="slide-subtitle">Expected Impact</h3>
+                        <ul class="slide-list">
+                            <li>Makes expert-level farming advice instantly accessible to all</li>
+                            <li>Reduces response time for critical farming queries from days to seconds</li>
+                            <li>Increases awareness and utilization of government agricultural schemes</li>
+                            <li>Improves agricultural yield and farmer income through better decision-making</li>
+                            <li>Reduces burden on agricultural officers, allowing them to focus on complex cases</li>
+                            <li>Creates a valuable knowledge repository of region-specific agricultural insights</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="slide-card">
+                    <div class="slide-card-title">Scalability & Future Enhancements</div>
+                    <p class="slide-text">The system is designed to scale across all agricultural regions in India with minimal adaptation. Future enhancements include satellite imagery integration, IoT sensor data incorporation, and mobile app development.</p>
+                </div>
+                
+                <div class="slide-image-full">
+                    <img src="assets/images/user-understanding.png" alt="FarmerMitra User Understanding" class="full-width-image" loading="lazy">
+                </div>
+            </div>
+            <div class="slide-number">6</div>
+        </section>
+
+        <!-- Slide 7: Thank You -->
+        <section id="slide7" class="slide title-slide">
+            <div class="slide-content">
+                <h2 class="slide-title">Thank You</h2>
+                <div class="slide-image-medium">
+                    <img src="assets/images/gemini-generated-image.png" alt="FarmerMitra Vision" class="medium-width-image" loading="lazy">
+                </div>
+                <p class="slide-text" style="text-align: center; font-size: 1.5rem;">Kisan AI Assistant: Making expert agricultural knowledge accessible to every farmer</p>
+                <p class="slide-text" style="text-align: center; margin-top: 2rem;">SIH25076 | Department of Agriculture, Government of Kerala</p>
+            </div>
+            <div class="slide-number">7</div>
+        </section>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+    
+    <!-- Navigation Controls -->
+    <div class="slide-nav" aria-label="Presentation navigation">
+        <button class="nav-button" id="prevBtn" title="Previous Slide (Up Arrow)" aria-label="Go to previous slide">
+            <i class="bi bi-chevron-up" aria-hidden="true"></i>
+            <span class="sr-only">Previous Slide</span>
+        </button>
+        <button class="nav-button" id="nextBtn" title="Next Slide (Down Arrow)" aria-label="Go to next slide">
+            <i class="bi bi-chevron-down" aria-hidden="true"></i>
+            <span class="sr-only">Next Slide</span>
+        </button>
+    </div>
+    
+    <!-- Slide Indicators -->
+    <div class="slide-indicators" aria-label="Slide navigation dots"></div>
+    
+    <!-- Help Button -->
+    <div class="help-button" id="helpBtn" title="Show Help (Press H)" aria-label="Show presentation help">
+        <i class="bi bi-question-circle" aria-hidden="true"></i>
+        <span class="sr-only">Show Help</span>
+    </div>
+    
+    <!-- Help Modal -->
+    <div class="help-modal" id="helpModal">
+        <div class="help-content">
+            <h3>Presentation Controls</h3>
+            <ul>
+                <li><i class="bi bi-arrow-up"></i> <strong>Up Arrow / Page Up:</strong> Previous slide</li>
+                <li><i class="bi bi-arrow-down"></i> <strong>Down Arrow / Page Down / Space:</strong> Next slide</li>
+                <li><i class="bi bi-circle-fill"></i> <strong>Slide Indicators:</strong> Click to jump to a slide</li>
+                <li><i class="bi bi-question-circle"></i> <strong>Help Button:</strong> Show/hide this help</li>
+                <li><i class="bi bi-x"></i> <strong>ESC Key:</strong> Close this help</li>
+            </ul>
+            <button class="close-help" id="closeHelp">Close</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const slides = document.querySelectorAll('.slide');
+            let currentSlideIndex = 0;
+            const totalSlides = slides.length;
+            
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const helpBtn = document.getElementById('helpBtn');
+            const helpModal = document.getElementById('helpModal');
+            const closeHelp = document.getElementById('closeHelp');
+            const slideIndicatorsContainer = document.querySelector('.slide-indicators');
+            const progressBar = document.getElementById('progressBar');
+            
+            // Create slide indicators
+            createSlideIndicators();
+            
+            // Preload all images for smoother experience
+            preloadImages();
+            
+            // Hide prev button initially
+            updateNavButtons();
+            
+            // Apply fade-in animation to all slides
+            slides.forEach(slide => slide.classList.add('animated'));
+            
+            // Enhance image display
+            enhanceImages();
+            
+            // Navigation button handlers
+            prevBtn.addEventListener('click', goToPreviousSlide);
+            nextBtn.addEventListener('click', goToNextSlide);
+            
+            // Help modal handlers
+            helpBtn.addEventListener('click', toggleHelpModal);
+            closeHelp.addEventListener('click', closeHelpModal);
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+                    goToPreviousSlide();
+                } else if (e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === ' ') {
+                    goToNextSlide();
+                } else if (e.key === 'Escape') {
+                    closeHelpModal();
+                } else if (e.key === 'h' || e.key === 'H') {
+                    toggleHelpModal();
+                }
+            });
+            
+            // Create slide indicators
+            function createSlideIndicators() {
+                for (let i = 0; i < totalSlides; i++) {
+                    const indicator = document.createElement('div');
+                    indicator.classList.add('indicator');
+                    indicator.title = `Go to slide ${i + 1}`;
+                    indicator.dataset.slideIndex = i;
+                    
+                    indicator.addEventListener('click', function() {
+                        goToSlide(parseInt(this.dataset.slideIndex));
+                    });
+                    
+                    slideIndicatorsContainer.appendChild(indicator);
+                }
+                updateSlideIndicators();
+            }
+            
+            // Update slide indicators
+            function updateSlideIndicators() {
+                const indicators = document.querySelectorAll('.indicator');
+                indicators.forEach((indicator, index) => {
+                    if (index === currentSlideIndex) {
+                        indicator.classList.add('active');
+                    } else {
+                        indicator.classList.remove('active');
+                    }
+                });
+            }
+            
+            // Go to specific slide
+            function goToSlide(index) {
+                if (index >= 0 && index < totalSlides) {
+                    currentSlideIndex = index;
+                    scrollToCurrentSlide();
+                }
+            }
+            
+            // Toggle help modal
+            function toggleHelpModal() {
+                helpModal.classList.toggle('show');
+            }
+            
+            // Close help modal
+            function closeHelpModal() {
+                helpModal.classList.remove('show');
+            }
+            
+            // Preload all images to ensure they display properly
+            function preloadImages() {
+                const images = document.querySelectorAll('img');
+                images.forEach(img => {
+                    const src = img.getAttribute('src');
+                    if (src) {
+                        const newImg = new Image();
+                        newImg.src = src;
+                        
+                        // Once image is loaded, determine proper aspect ratio class
+                        newImg.onload = function() {
+                            const aspectRatio = newImg.width / newImg.height;
+                            const parent = img.parentElement;
+                            
+                            if (parent && (parent.classList.contains('slide-image-full') || 
+                                          parent.classList.contains('slide-image-half') || 
+                                          parent.classList.contains('slide-image-medium'))) {
+                                if (aspectRatio > 1.2) {
+                                    parent.classList.add('landscape');
+                                } else if (aspectRatio < 0.8) {
+                                    parent.classList.add('portrait');
+                                } else {
+                                    parent.classList.add('square');
+                                }
+                            }
+                        };
+                    }
+                });
+            }
+            
+            // Enhance images with additional features for better visibility
+            function enhanceImages() {
+                const images = document.querySelectorAll('.full-width-image, .half-width-image, .medium-width-image');
+                
+                images.forEach(img => {
+                    // Make images zoomable
+                    const parent = img.parentElement;
+                    parent.classList.add('zoomable');
+                    
+                    // Add click handler for zoom functionality
+                    img.addEventListener('click', function() {
+                        createImageModal(this.src, this.alt);
+                    });
+                });
+            }
+            
+            // Create modal for viewing images in full screen
+            function createImageModal(src, alt) {
+                // Remove any existing modal
+                const existingModal = document.querySelector('.image-modal');
+                if (existingModal) {
+                    existingModal.remove();
+                }
+                
+                // Create modal elements
+                const modal = document.createElement('div');
+                modal.classList.add('image-modal');
+                
+                const modalContent = document.createElement('div');
+                modalContent.classList.add('image-modal-content');
+                
+                const image = document.createElement('img');
+                image.src = src;
+                image.alt = alt || 'Enlarged image';
+                
+                const closeButton = document.createElement('button');
+                closeButton.classList.add('image-modal-close');
+                closeButton.innerHTML = '&times;';
+                closeButton.setAttribute('aria-label', 'Close image view');
+                
+                const caption = document.createElement('div');
+                caption.classList.add('image-modal-caption');
+                caption.textContent = alt || '';
+                
+                // Assemble modal
+                modalContent.appendChild(closeButton);
+                modalContent.appendChild(image);
+                modalContent.appendChild(caption);
+                modal.appendChild(modalContent);
+                document.body.appendChild(modal);
+                
+                // Show modal with animation
+                setTimeout(() => modal.classList.add('show'), 10);
+                
+                // Add event listeners
+                closeButton.addEventListener('click', () => {
+                    modal.classList.remove('show');
+                    setTimeout(() => modal.remove(), 300);
+                });
+                
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        modal.classList.remove('show');
+                        setTimeout(() => modal.remove(), 300);
+                    }
+                });
+                
+                // Add keyboard support
+                document.addEventListener('keydown', function closeModalOnEsc(e) {
+                    if (e.key === 'Escape') {
+                        modal.classList.remove('show');
+                        setTimeout(() => modal.remove(), 300);
+                        document.removeEventListener('keydown', closeModalOnEsc);
+                    }
+                });
+            }
+            
+            function goToNextSlide() {
+                if (currentSlideIndex < totalSlides - 1) {
+                    currentSlideIndex++;
+                    scrollToCurrentSlide();
+                } else {
+                    // Visual feedback when at last slide
+                    nextBtn.classList.add('bounce');
+                    setTimeout(() => nextBtn.classList.remove('bounce'), 500);
+                }
+            }
+            
+            function goToPreviousSlide() {
+                if (currentSlideIndex > 0) {
+                    currentSlideIndex--;
+                    scrollToCurrentSlide();
+                } else {
+                    // Visual feedback when at first slide
+                    prevBtn.classList.add('bounce');
+                    setTimeout(() => prevBtn.classList.remove('bounce'), 500);
+                }
+            }
+            
+            function scrollToCurrentSlide() {
+                // Add active class to current slide
+                slides.forEach((slide, index) => {
+                    if (index === currentSlideIndex) {
+                        slide.classList.add('active-slide');
+                        // Announce slide change for screen readers
+                        announceToScreenReader(`Now viewing slide ${index + 1}: ${slide.querySelector('.slide-title')?.textContent || 'Slide ' + (index + 1)}`);
+                    } else {
+                        slide.classList.remove('active-slide');
+                    }
+                });
+                
+                // Scroll to slide
+                slides[currentSlideIndex].scrollIntoView({ behavior: 'smooth' });
+                updateNavButtons();
+                updateSlideIndicators();
+                updateProgressBar();
+                
+                // Update page title with current slide
+                document.title = `FarmerMitra Presentation - Slide ${currentSlideIndex + 1}/${totalSlides}`;
+            }
+            
+            // Update progress bar
+            function updateProgressBar() {
+                const progress = ((currentSlideIndex + 1) / totalSlides) * 100;
+                progressBar.style.width = `${progress}%`;
+            }
+            
+            // Announce changes to screen readers
+            function announceToScreenReader(message) {
+                const announcer = document.getElementById('sr-announcer') || createAnnouncer();
+                announcer.textContent = message;
+            }
+            
+            // Create screen reader announcer
+            function createAnnouncer() {
+                const announcer = document.createElement('div');
+                announcer.id = 'sr-announcer';
+                announcer.setAttribute('aria-live', 'polite');
+                announcer.classList.add('sr-only');
+                document.body.appendChild(announcer);
+                return announcer;
+            }
+            
+            function updateNavButtons() {
+                prevBtn.style.display = currentSlideIndex === 0 ? 'none' : 'flex';
+                nextBtn.style.display = currentSlideIndex === totalSlides - 1 ? 'none' : 'flex';
+                
+                // Update button tooltips with slide names
+                if (currentSlideIndex > 0) {
+                    const prevSlideName = slides[currentSlideIndex - 1].querySelector('.slide-title')?.textContent || `Slide ${currentSlideIndex}`;
+                    prevBtn.setAttribute('title', `Previous: ${prevSlideName}`);
+                }
+                
+                if (currentSlideIndex < totalSlides - 1) {
+                    const nextSlideName = slides[currentSlideIndex + 1].querySelector('.slide-title')?.textContent || `Slide ${currentSlideIndex + 2}`;
+                    nextBtn.setAttribute('title', `Next: ${nextSlideName}`);
+                }
+            }
+            
+            // Show a welcome message
+            setTimeout(() => {
+                const welcomeMsg = document.createElement('div');
+                welcomeMsg.classList.add('welcome-message');
+                welcomeMsg.innerHTML = `
+                    <div class="welcome-content">
+                        <h3>Welcome to FarmerMitra Presentation</h3>
+                        <p>Use arrow keys or buttons to navigate</p>
+                        <p>Press H for help anytime</p>
+                        <button id="startPresentation">Start Presentation</button>
+                    </div>
+                `;
+                document.body.appendChild(welcomeMsg);
+                
+                document.getElementById('startPresentation').addEventListener('click', () => {
+                    welcomeMsg.remove();
+                });
+                
+                setTimeout(() => {
+                    welcomeMsg.classList.add('show');
+                }, 100);
+            }, 500);
+            
+            // Detect slide changes when user scrolls manually
+            const slideContainer = document.querySelector('.slide-container');
+            slideContainer.addEventListener('scroll', function() {
+                const slideHeight = window.innerHeight;
+                const scrollPosition = slideContainer.scrollTop;
+                const newIndex = Math.round(scrollPosition / slideHeight);
+                
+                if (newIndex !== currentSlideIndex && newIndex >= 0 && newIndex < totalSlides) {
+                    currentSlideIndex = newIndex;
+                    updateNavButtons();
+                    updateSlideIndicators();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
